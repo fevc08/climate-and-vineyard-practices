@@ -4,7 +4,7 @@ def get_connection():
     conn = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};'
         'SERVER=LAPTOP-7SGK046V;'
-        'DATABASE=your_database_name;'
+        'DATABASE=climate_and_vineyard_practice;'
         'Trusted_Connection=yes;'
     )
     return conn
